@@ -4,12 +4,15 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
+    "start": "node ./server.mjs",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync": "astro sync"
   },
   "dependencies": {
-    "astro": "^2.3.2"
+    "@astrojs/node": "^5.1.2",
+    "astro": "^2.4.1",
+    "express": "^4.18.2"
   }
 }
